@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet_name>login</servlet_name>
+        <servlet_class>com.jiageng.server.servlet.LoginServlet</servlet_class>
+    </servlet>
+    <servlet>
+        <servlet_name>reg</servlet_name>
+        <servlet_class>com.jiageng.server.servlet.RegisterServlet</servlet_class>
+    </servlet>
+    <servlet-mapping>
+        <servlet_name>login</servlet_name>
+        <url>/g</url>
+        <url>/login</url>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet_name>reg</servlet_name>
+        <url>/reg</url>
+        <url>/r</url>
+    </servlet-mapping>
+</web-app>
